@@ -1,0 +1,23 @@
+{
+  "name": "invoice-mgt-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run-next.js dev",
+    "build": "next build",
+    "start": "node scripts/run-next.js start"
+  },
+  "dependencies": {
+    "@next/swc-wasm-nodejs": "^13.4.12",
+    "clsx": "^1.2.1",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.7"
+  }
+}
