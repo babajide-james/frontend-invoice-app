@@ -5,16 +5,13 @@ export default function Sidebar() {
   return (
     <aside className="app-sidebar">
       <div className="app-logo" aria-hidden="true">
-        <div className="app-logo__shape">
-          <span className="app-logo__shape-top" />
-          <span className="app-logo__shape-bottom" />
-        </div>
+        <img src="/logo.jpg" alt="Logo" className="app-logo__img" />
       </div>
 
       <div className="app-sidebar__footer">
         <ThemeToggle />
         <div className="app-avatar" aria-label="User profile">
-          <span>HD</span>
+          <img src="/me.jpg" alt="User" className="app-avatar__img" />
         </div>
       </div>
     </aside>
